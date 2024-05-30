@@ -599,7 +599,7 @@ static void setTitleBarText_( QWidget &qgisApp )
   if ( QgsProject::instance()->isDirty() )
     caption.prepend( '*' );
 
-  caption += QgisApp::tr( "QGIS" );
+  caption += QgisApp::tr( "mGIS" );
 
   if ( Qgis::version().endsWith( QLatin1String( "Master" ) ) )
   {
